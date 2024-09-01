@@ -4,9 +4,11 @@ import { ParticlesBackground } from "../components/ParticlesBackground";
 
 export default function Home() {
   return (
-    <main className="relative flex justify-center items-center h-screen text-4xl">
-      AOWKOAWKOAKWOAKW LET SEE THIS PROJECT
+    <div className="relative ">
+      <main className="flex flex-col justify-center items-center max-h-screen place-content-center text-4xl">
+        AOWKOAWKOAKWOAKW LET SEE THIS PROJECT
+      </main>
       <ParticlesBackground />
-    </main>
+    </div>
   );
 }
