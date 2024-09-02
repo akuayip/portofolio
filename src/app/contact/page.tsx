@@ -1,7 +1,12 @@
+import { ParticlesBackground } from "@/components/ParticlesBackground";
+
 const Contact = () => {
   return (
-    <div>Contact</div>
-  )
-}
+    <div>
+      <ParticlesBackground />
+      Contact
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;
