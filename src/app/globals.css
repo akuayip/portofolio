@@ -17,8 +17,9 @@
 }
 
 body {
+  @apply font-primary;
   color: rgb(var(--foreground-rgb));
-  background: #090308; /* Updated background color */
+  background: #090308;
 }
 
 @layer utilities {
@@ -26,3 +27,4 @@ body {
     text-wrap: balance;
   }
 }
+

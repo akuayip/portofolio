@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 
-const inter = Inter({ subsets: ["latin"] });
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "800", "700", "800"],
+  variable: "--font-jetbrainsMono",
+});
 
 export const metadata: Metadata = {
   title: "AYIPZZ",
@@ -13,12 +17,13 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children}: Readonly<{
+  children,
+}: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={jetbrainsMono.variable}>
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
@@ -26,4 +31,3 @@ export default function RootLayout({
     </html>
   );
 }
-
