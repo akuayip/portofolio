@@ -1,9 +1,8 @@
 "use client";
 import { Hobby } from "@/components/Hobby";
 import { ParticlesBackground } from "@/components/ParticlesBackground";
-import { AnimatedListDemo } from "@/components/Skill";
-import { TimelineDemo } from "@/components/TimelineProject";
-import { Skills } from "@/components/ui/Skills";
+import { Skilllist } from "@/components/Skill";
+import { TimelineEdu } from "@/components/TimelineProject";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -37,7 +36,7 @@ const About = () => {
                 <h1 className="text-center xl:text-left md:text-[40px] text-[32px] justify-between text-accent items-center">
                   My Skill
                 </h1>
-                <AnimatedListDemo />
+                <Skilllist />
               </div>
               <div className="pt-10">
                 <h1 className="text-center xl:text-left md:text-[40px] text-[32px] justify-between text-accent">
@@ -47,7 +46,7 @@ const About = () => {
               </div>
             </div>
             <div className="order-2 mb-8 xl:mb-0">
-              <TimelineDemo />
+              <TimelineEdu />
             </div>
           </div>
         </div>

@@ -133,7 +133,7 @@ const Notification = ({ name, description, icon, color, time }: Item) => {
   );
 };
 
-export function AnimatedListDemo({ className }: { className?: string }) {
+export function Skilllist({ className }: { className?: string }) {
   return (
     <div
       className={cn(

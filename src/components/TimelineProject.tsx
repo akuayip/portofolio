@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Timeline } from "./ui/Timeline";
 
-export function TimelineDemo() {
+export function TimelineEdu() {
   const data = [
     {
       title: "2022 - Now",
@@ -13,7 +13,7 @@ export function TimelineDemo() {
           </h1>
           <div className="grid gap-4">
             <p>✅ AI NOVAC 2024</p>
-            <p>✅ GEMASTIK LKTI TIK 2024</p>
+            <p>✅ GEMASTIK 2024</p>
             <p>✅ LKTI </p>
             <p>✅ ESSAY NASIONAL</p>
           </div>
@@ -29,7 +29,7 @@ export function TimelineDemo() {
           </h1>
           <div className="grid gap-4">
             <p>✅ BRAWIJAYA EVENT ASTRONOMY 2022</p>
-            <p>✅ HILO DESIGN THINKING MARATHON 2022</p>
+            <p>✅ HiLo Teen DESIGN THINKING MARATHON 2022</p>
             <p>✅ OSN ASTRONOMI 2022</p>
             <p>✅ OSN ASTRONOMI 2021</p>
             <p>✅ OSN ASTRONOMI 2021 by POSI</p>
