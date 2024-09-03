@@ -1,6 +1,6 @@
 "use client";
 
-import CountUp from "react-countup"; // Pastikan Anda mengimpor CountUp dari pustaka yang benar
+import CountUp from "react-countup";
 
 const stats = [
   {
@@ -23,7 +23,7 @@ const stats = [
 
 const Stats = () => {
   return (
-    <section >
+    <section>
       <div className="container mx-auto">
         <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none">
           {stats.map((item, index) => (

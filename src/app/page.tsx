@@ -20,15 +20,14 @@ const Home = () => {
               <span className="text-[100px] text-accent"> Ano YIPz</span>
             </h1>
             <p className="w-full md:w-3/4 text-[20px]">
-              Let' know who AM I ? and Explore my projects
-              and feel free to connect with me on social media or through my
-              contact page!
+              Let' know who AM I ? and Explore my projects and feel free to
+              connect with me on social media or through my contact page!
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
                 variant="outline"
                 size="lg"
-                className="uppercase flex items-center mt-6"
+                className="uppercase flex items-center mt-6 bg-accent rounded-full text-black"
               >
                 <span>Download CV </span>
                 <IconDownload stroke={2} className="ml-2" />
