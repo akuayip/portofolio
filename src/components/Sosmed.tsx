@@ -6,9 +6,15 @@ import {
 } from "@tabler/icons-react";
 
 const sosmed = [
-  { icon: <IconBrandGithub size={34} />, path: "" },
-  { icon: <IconBrandLinkedin size={34} />, path: "" },
-  { icon: <IconBrandInstagram size={34} />, path: "" },
+  { icon: <IconBrandGithub size={34} />, path: "https://github.com/akuayip" },
+  {
+    icon: <IconBrandLinkedin size={34} />,
+    path: "https://www.linkedin.com/in/arriefrahman/",
+  },
+  {
+    icon: <IconBrandInstagram size={34} />,
+    path: "https://www.instagram.com/arriefrahman_/",
+  },
 ];
 
 const Sosmed = () => {

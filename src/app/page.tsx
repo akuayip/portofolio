@@ -12,18 +12,17 @@ const Home = () => {
     <section className="h-full ">
       <ParticlesBackground />
       <div className="container mx-auto h-full ">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-8 ">
+        <div className="flex flex-col xl:flex-row items-center justify-between ">
           <div className="order-2 xl:order-none text-center xl:text-left">
-            <span className="text-[24px]">Student Undergraduated</span>
+            <span className="text-[24px]">Eittt !!! </span>
             <h1 className="text-[36px]">
               Hello I'm <br />
               <span className="text-[100px] text-accent"> Ano YIPz</span>
             </h1>
             <p className="w-full md:w-3/4 text-[20px]">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Laudantium, neque a accusantium nulla aperiam aut rem quaerat
-              incidunt nemo rerum doloribus dolores esse dolor deleniti
-              blanditiis, quo asperiores, nihil sequi!
+              Let' know who AM I ? and Explore my projects
+              and feel free to connect with me on social media or through my
+              contact page!
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button

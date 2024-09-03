@@ -4,7 +4,7 @@ import CountUp from "react-countup"; // Pastikan Anda mengimpor CountUp dari pus
 
 const stats = [
   {
-    num: 2,
+    num: 1,
     text: "Year of experience",
   },
   {

@@ -2,10 +2,10 @@ import { ParticlesBackground } from "@/components/ParticlesBackground";
 
 const Contact = () => {
   return (
-    <div>
+    <section>
       <ParticlesBackground />
       Contact
-    </div>
+    </section>
   );
 };
 
