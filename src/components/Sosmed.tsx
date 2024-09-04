@@ -19,7 +19,7 @@ const sosmed = [
 
 const Sosmed = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-8 mb-2">
+    <div className="flex flex-row gap-8 mb-10">
       {sosmed.map((item, index) => (
         <a
           key={index}
