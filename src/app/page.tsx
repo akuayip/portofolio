@@ -16,12 +16,12 @@ const Home = () => {
           <div className="order-2 xl:order-none text-center xl:text-left">
             <span className="text-[24px]">Eittt !!! </span>
             <h1 className="text-[36px]">
-              Hello I'm <br />
+              Hello I&apos;am <br />
               <span className="text-[100px] text-accent"> Ano YIPz</span>
             </h1>
             <p className="w-full md:w-3/4 text-[20px]">
-              Let' know who AM I ? and Explore my projects and feel free to
-              connect with me on social media or through my contact page!
+              Let&apos;s know who AM I ? and Explore my projects and feel free
+              to connect with me on social media or through my contact page!
             </p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
