@@ -17,6 +17,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { BsGithub, BsArrowUpRight } from "react-icons/bs";
 import { ParticlesBackground } from "@/components/ParticlesBackground";
+import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [
   {
@@ -26,11 +27,8 @@ const projects = [
     description:
       "PPLK atau Program Pengenalan Lingkungan Kampus merupakan pesta kaderisasi terbesar yang sangat megah karena dijalankan langsung secara terpusat dengan seluruh mahasiswa Baru sebagai pesertanya, serta tantangan bagaimana cara menyampaikan capaian tujuan yang diharapkan kepada peserta. PPLK ITERA 2024 diharapkan dapat menjadi gerbang pertama dalam terwujudnya mahasiswa baru yang kompetitif, berintelektual, serta siap menghadapi gempuran globalisasi.",
     stack: [
-      { name: "Laravel" },
-      { name: "React" },
-      { name: "Tailwind" },
-      { name: "Typescript" },
-      { name: "Shadcn" },
+      { name: "Laravel, React, Tailwind, Typescript, Shadcn" },
+      // { name: "React" },
     ],
     image: "/assets/pplk-doc1.png",
     live: "https://example.com/project2",
@@ -42,12 +40,7 @@ const projects = [
     title: "project 1",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusantium fugit quos. Atque cupiditate quae nemo, officia labore incidunt aliquam! Sed non voluptate velit inventore neque harum placeat amet blanditiis.",
-    stack: [
-      { name: "Next.js" },
-      { name: "React" },
-      { name: "Tailwind" },
-      { name: "Typescript" },
-    ],
+    stack: [{ name: "Next.js, React, Tailwind, Typescript" }],
     image: "/assets/porto-doc1.png",
     live: "https://example.com/project1",
     github: "https://github.com/akuayip/portofolio",
@@ -58,7 +51,7 @@ const projects = [
     title: "project 3",
     description:
       "Tetap Hidup Adventure Game is an adventure game with the goal of finding a miraculous potion that can cure the illness of the main character's family. The concept of this game is inspired by the film Black Mirror, where the player becomes an integral part of determining the course of the story. In this game, players are given the opportunity to decide the ending of the game.",
-    stack: [{ name: "PYTHON" }, { name: "Library: Pygame, Random, Math" }],
+    stack: [{ name: "PYTHON, Library: Pygame, Random, Math" }],
     image: "/assets/pygame-doc1.png",
     live: "https://example.com/project3",
     github: "https://github.com/akuayip/Tetap-Hidup-Adventure-Game-Interaktif",
@@ -69,7 +62,7 @@ const projects = [
     title: "project 4",
     description:
       "TEBAK AKU Game is a logic game. This is a simple but interesting game as it requires logical thinking and luck to guess the numbers correctly in the smallest possible number of guesses.",
-    stack: [{ name: "PYTHON" }, { name: "Library: Pygame" }],
+    stack: [{ name: "PYTHON, Library: Pygame" }],
     image: "/assets/pygame-doc2.png",
     live: "https://example.com/project4",
     github: "https://github.com/akuayip/PRAK-PBO-Tebakaku",
@@ -179,6 +172,11 @@ const Project = () => {
                     </div>
                   </SwiperSlide>
                 ))}
+                {/* button */}
+                <WorkSliderBtns
+                  containerStyles="flex gap-2 absolute right-0 bottom-[calc50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
+                  btnStyles="bg-accent hover:bg-white text-black text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all rounded-full"
+                />
               </Swiper>
             </div>
           </div>

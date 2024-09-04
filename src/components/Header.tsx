@@ -17,8 +17,11 @@ const Header = () => {
         {/* desktop navbar */}
         <div className="hidden xl:flex items-center gap-8 ">
           <Navbar />
-          <Link href="/contact">
-            <Button className=" rounded-full hover:bg-accent hover:text-black">
+          <Link href="https://wa.me/6282280589373" passHref>
+            <Button
+              className="rounded-full hover:bg-accent hover:text-black"
+              // target="_blank" // Membuka link di tab baru
+            >
               Hire me!
             </Button>
           </Link>

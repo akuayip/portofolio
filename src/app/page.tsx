@@ -12,7 +12,7 @@ const Home = () => {
     <section className="h-full ">
       <ParticlesBackground />
       <div className="container mx-auto h-full ">
-        <div className="flex flex-col xl:flex-row items-center justify-between ">
+        <div className="flex flex-col xl:flex-row items-center justify-between">
           <div className="order-2 xl:order-none text-center xl:text-left">
             <span className="text-[24px]">Eittt !!! </span>
             <h1 className="text-[36px]">
