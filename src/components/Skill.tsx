@@ -124,7 +124,7 @@ const Notification = ({ name, description, icon, color, time }: Item) => {
             <span className="mx-1">·</span>
             <span className="text-xs text-gray-500">{time}</span>
           </figcaption>
-          <p className="text-sm font-normal dark:text-white/60">
+          <p className="text-sm font-normal text-white">
             {description}
           </p>
         </div>

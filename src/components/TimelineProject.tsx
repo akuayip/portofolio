@@ -11,7 +11,7 @@ export function TimelineEdu() {
           <h1 className="text-white dark:text-neutral-200 text-sm md:text-xl font-normal mb-8">
             Sumatera Institute of Technology
           </h1>
-          <div className="grid gap-4">
+          <div className="grid gap-4 text-white">
             <p>✅ AI NOVAC 2024</p>
             <p>✅ GEMASTIK 2024</p>
             <p>✅ LKTI </p>
@@ -27,7 +27,7 @@ export function TimelineEdu() {
           <h1 className="text-white dark:text-neutral-200 text-sm md:text-xl font-normal mb-8">
             Senior High School Kebangsaan
           </h1>
-          <div className="grid gap-4">
+          <div className="grid gap-4 text-white">
             <p>✅ BRAWIJAYA EVENT ASTRONOMY 2022</p>
             <p>✅ HiLo Teen DESIGN THINKING MARATHON 2022</p>
             <p>✅ OSN ASTRONOMI 2022</p>

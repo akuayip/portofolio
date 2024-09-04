@@ -17,16 +17,18 @@ const About = () => {
         }}
       >
         <div className="container mx-auto h-full ">
-          <div className="flex flex-col xl:flex-row  justify-between items-center xl:items-start xl:pt-8 xl:pb-8 ">
+          <div className="flex flex-col xl:flex-row  justify-between items-center xl:items-start xl:pt-8 xl:pb-8">
             <div className="order-2 xl:order-none text-center items-center xl:text-left w-3/4 ">
-              <span className="md:text-[20px] text-[18px]">AHAa !!! </span>
-              <h1 className="texxt-[20px] md:text-[32px]">
+              <span className="md:text-[20px] text-[18px] text-white">
+                AHAa !!!{" "}
+              </span>
+              <h1 className="texxt-[20px] md:text-[32px] text-white">
                 This is about me <br />
                 <span className="md:text-[40px] text-[32px] text-accent">
                   ARIEF
                 </span>
               </h1>
-              <p className="w-full md:text-[20px] text-[12px]">
+              <p className="w-full md:text-[20px] text-[12px] text-white">
                 As an aspiring software developer with 1 year of experience in
                 the field. I am enthusiastic about building efficient and
                 scalable solutions to solve real-world problems. Currently, I am
@@ -39,7 +41,7 @@ const About = () => {
                 <Skilllist />
               </div>
               <div className="pt-10">
-                <h1 className="text-center xl:text-left md:text-[40px] text-[32px] justify-between text-accent">
+                <h1 className="text-center xl:text-left md:text-[40px] text-[32px] justify-between text-accent items-center">
                   My Hobby
                 </h1>
                 <Hobby />
