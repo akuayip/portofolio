@@ -4,9 +4,14 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "**",
+        hostname: "**", // Memungkinkan gambar dari semua hostname dengan protokol HTTPS
       },
     ],
+  },
+  swcMinify: false, // Menonaktifkan SWC minifikasi untuk menghindari masalah saat build
+
+  compiler: {
+    styledComponents: true, // Jika Anda menggunakan styled-components, tambahkan opsi ini
   },
 };
 
