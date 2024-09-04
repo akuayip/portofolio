@@ -11,7 +11,7 @@ import {
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "../../components/ui/tooltip"; // Pastikan jalur ini benar
+} from "../../components/ui/tooltip";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -74,7 +74,7 @@ const projects = [
     description:
       "PREDIKSI KETERSEDIAAN OBAT MENGGUNAKAN ALGORITMA K-MEANS DAN ARIMA ( STUDI KASUS APOTEK GRATIA LAMPUNG TENGAH ). Penelitian ini mengoptimalkan manajemen persediaan obat dengan memanfaatkan model K-Means dan ARIMA untuk prediksi stok. Pengelompokan obat dilakukan menggunakan K-Means berdasarkan data historis, diikuti uji hipotesis dan prediksi kebutuhan obat dengan ARIMA. Hasil menunjukkan bahwa clustering paling efektif terjadi pada k=2 dengan silhouette score 0,72. Model ARIMA terbaik adalah ARIMA(3, 2, 1), dengan prediksi kebutuhan Fg Troches selama 12 bulan mendatang sebanyak 5540 strip dan MAPE 11,18%. Penelitian ini dapat diterapkan untuk prediksi obat lain dengan model ARIMA yang sesuai.",
     stack: [{ name: "PYTHON" }, { name: "Library: Pygame" }],
-    image: "/assets/machine-learning-doc1.png",
+    image: "/assets/cooming-soon.jpg",
     live: "https://example.com/project4",
     github: "https://example.com/project4",
   },
@@ -164,7 +164,6 @@ const Project = () => {
                         <Image
                           src={project.image}
                           fill
-                          layout="fill"
                           className="object-cover"
                           alt=""
                         />
