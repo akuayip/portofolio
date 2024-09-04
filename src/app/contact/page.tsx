@@ -112,24 +112,28 @@ const Contact = () => {
                   placeholder="Firstname"
                   value={firstname}
                   onChange={(e) => setFirstname(e.target.value)}
+                  className="text-white"
                 />
                 <Input
                   type="text"
                   placeholder="Lastname"
                   value={lastname}
                   onChange={(e) => setLastname(e.target.value)}
+                  className="text-white"
                 />
                 <Input
                   type="email"
                   placeholder="Email address"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  className="text-white"
                 />
                 <Input
                   type="text"
                   placeholder="Phone number"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
+                  className="text-white"
                 />
               </div>
               {/* select */}
@@ -172,7 +176,7 @@ const Contact = () => {
                     </div>
                     <div className="flex-1">
                       <p className="text-white">{item.title}</p>
-                      <h3 className="text-xl">{item.description}</h3>
+                      <h3 className="text-xl text-white">{item.description}</h3>
                     </div>
                   </li>
                 );
