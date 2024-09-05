@@ -16,7 +16,7 @@ let notifications = [
     name: "C++",
     description:
       "High-performance language known for system-level programming and competitive coding.",
-    time: "Since 2015",
+    time: "Since 2022",
     icon: "💻",
     color: "#00C9A7",
   },
@@ -24,7 +24,7 @@ let notifications = [
     name: "Python",
     description:
       "Versatile language favored for data science, machine learning, and web development.",
-    time: "Since 2017",
+    time: "Since 2022",
     icon: "🐍",
     color: "#FFB800",
   },
@@ -32,7 +32,7 @@ let notifications = [
     name: "Java",
     description:
       "Robust and platform-independent language, popular for enterprise-level applications.",
-    time: "Since 2016",
+    time: "Since 2022",
     icon: "☕",
     color: "#FF3D71",
   },
@@ -40,7 +40,7 @@ let notifications = [
     name: "MySQL",
     description:
       "Reliable relational database management system used for storing and managing data.",
-    time: "Since 2018",
+    time: "Since 2022",
     icon: "🗄️",
     color: "#1E86FF",
   },
@@ -48,7 +48,7 @@ let notifications = [
     name: "JavaScript",
     description:
       "Core language of the web, used for building interactive and dynamic websites.",
-    time: "Since 2017",
+    time: "Since 2022",
     icon: "📜",
     color: "#F7DF1E",
   },
@@ -56,7 +56,7 @@ let notifications = [
     name: "HTML",
     description:
       "Standard markup language for creating web pages and web applications.",
-    time: "Since 2016",
+    time: "Since 2022",
     icon: "🌐",
     color: "#E34F26",
   },
@@ -64,7 +64,7 @@ let notifications = [
     name: "CSS",
     description:
       "Styling language used to design the look and feel of web pages.",
-    time: "Since 2016",
+    time: "Since 2022",
     icon: "🎨 ",
     color: "#1572B6",
   },
@@ -72,7 +72,7 @@ let notifications = [
     name: "Figma",
     description:
       "Collaborative interface design tool used for prototyping and creating user interfaces.",
-    time: "Since 2019",
+    time: "Since 2022",
     icon: "🎨",
     color: "#A259FF",
   },
@@ -80,7 +80,7 @@ let notifications = [
     name: "Notion",
     description:
       "All-in-one workspace for note-taking, knowledge management, and project management.",
-    time: "Since 2020",
+    time: "Since 2022",
     icon: "📋",
     color: "#2F3437",
   },
@@ -88,7 +88,7 @@ let notifications = [
     name: "Miro",
     description:
       "Online collaborative whiteboard platform for brainstorming, planning, and team collaboration.",
-    time: "Since 2020",
+    time: "Since 2022",
     icon: "🖊️",
     color: "#FFD02F",
   },
