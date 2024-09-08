@@ -157,12 +157,12 @@ const Contact = () => {
                 onChange={(e) => setMessage(e.target.value)}
               />
               {/* btn */}
-              <Button
+              {/* <Button
                 type="submit"
                 className="max-w-40 rounded-full text-black bg-accent hover:bg-white"
               >
                 Send message
-              </Button>
+              </Button> */}
             </form>
           </div>
           {/* info */}
