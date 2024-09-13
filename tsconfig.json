@@ -27,6 +27,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/app/about"
-  ],
+, "src/app/api/manfess/route.ts"  ],
   "exclude": ["node_modules"]
 }

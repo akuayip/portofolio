@@ -6,15 +6,18 @@ import Link from "next/link";
 import { m } from "framer-motion";
 import { IconMenu2 } from "@tabler/icons-react";
 
-
 const links = [
   {
-    name: "home",
+    name: "Home",
     path: "/",
   },
   {
     name: "about",
     path: "/about",
+  },
+  {
+    name: "manfess",
+    path: "/manfess",
   },
   {
     name: "project",
